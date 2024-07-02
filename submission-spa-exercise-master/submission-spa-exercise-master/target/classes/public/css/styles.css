@@ -1,0 +1,105 @@
+/* Reset some default browser styles */
+body, h1, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Style the main content container */
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the lookup form */
+#lookup-form {
+    margin-bottom: 20px;
+}
+
+#lookup {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style the dictionary results */
+#dictionary-word {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#dictionary-phonetic {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#dictionary-meanings {
+    margin-top: 20px;
+}
+
+.part-of-speech {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.definition {
+    margin-top: 5px;
+}
+
+.example {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Style the synonyms/antonyms results */
+#synonyms-antonyms-word {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#synonyms-antonyms-related-words {
+    margin-top: 20px;
+}
+
+.related-word {
+    margin-top: 5px;
+}
